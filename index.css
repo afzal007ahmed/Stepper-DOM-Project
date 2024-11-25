@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px; 
+}
+
+header {
+    text-align: center; 
+    margin-bottom :3vh ;
+    border-bottom: 2px 0px 4px lightgrey;
+}
+.main-container{
+    width: 90%;
+    margin:auto;
+}
+.first-container,.second-container{
+    display: flex;
+    align-items: center;
+    padding:30px ;
+    padding-bottom: 0px;
+}
+.circle{
+    height: 40px;
+    width: 40px;
+    border: 2px solid black ;
+    border-radius: 50%; 
+    background-color: lightgrey;
+    text-align: center;
+    padding-top:10px;
+    font-weight: 600;
+}
+
+.bars{
+    height: 0px ;
+    width: 32%; 
+    border: 2px solid black;
+}
+.second-container {
+    padding: 0px;
+    font-size: 1.5rem;
+}
+.info{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+.all-btns{
+    text-align: center;
+}
+button{
+    font-size: 1.1rem;
+    height: 60px;
+    width: 100px;
+    margin-right:1%;
+    border-radius: 10px;
+    border: none;
+    background-color: lightgrey;
+}
+
+.detail-1{
+    width: 28%;
+}
+.detail-2{
+    width: 35%;
+}
+.detail-3{
+    width: 32%;
+}
+
+.afterChange {
+    font-size: 1.6rem; 
+    padding: 5px;
+    background-color: green!important;
+}
+.onHold{
+    background-color: blue; 
+    color: white;
+}
+.beforeChange {
+    background-color: lightgray ; 
+    color: black ;
+}
